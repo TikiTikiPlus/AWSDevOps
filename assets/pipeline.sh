@@ -17,7 +17,7 @@ echo "(1) Build (compiling the application)"
     git push git@github.com:TikiTikiPlus/AWSDevOps.git
     #foreach file that is available, check their file type
     #while there is still an unexplored folder, go in, otherwise, leave
-    FILES="*.ts"
+    FILES="*"
     for f in $FILES
     do
       if [ -f "$f" ]
