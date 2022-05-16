@@ -1,0 +1,36 @@
+
+> aws-bookstore-demo-app@0.1.0 start /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://10.12.8.69/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Files successfully emitted, waiting for typecheck results...
+Compiled with warnings.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 28:26:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/modules/checkout/checkoutForm/CheckoutForm.tsx
+  Line 2:54:  'FormControlProps' is defined but never used  @typescript-eslint/no-unused-vars
+
+./src/modules/signup/Home.tsx
+  Line 45:506:  Using target="_blank" without rel="noopener noreferrer" is a security risk: see https://mathiasbynens.github.io/rel-noopener  react/jsx-no-target-blank
+
+./src/modules/category/CategoryGalleryTeaser.tsx
+  Line 46:74:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+./src/modules/signup/Login.tsx
+  Line 7:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 7:55:  Unnecessary escape character: \[  no-useless-escape
+
+./src/modules/signup/Signup.tsx
+  Line 8:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 8:55:  Unnecessary escape character: \[  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
