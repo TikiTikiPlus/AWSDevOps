@@ -15,6 +15,18 @@ echo "(1) Build (compiling the application)"
       git commit -m "$1"
     fi
     git push git@github.com:TikiTikiPlus/AWSDevOps.git
+    #foreach file that is available, check their file type
+    #while there is still an unexplored folder, go in, otherwise, leave
+    FILES="*.ts"
+    for f in $FILES
+    do
+      if [ -f "$f" ]
+      then
+        echo "processing $f file..."
+      echo "nigger"
+      fi
+    done
+
     echo "build succeeded"
   else
     echo "build failed"
