@@ -13,7 +13,7 @@ echo "(1) Build (compiling the application)"
       echo "$1"
       git commit -m "$1"
     fi
-    git push --force git@github.com:TikiTikiPlus/AWSDevOps.git
+    git push git@github.com:TikiTikiPlus/AWSDevOps.git
     echo "build succeeded"
   else
     echo "build failed"
