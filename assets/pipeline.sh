@@ -5,6 +5,7 @@ echo "(0) Prepare environment"
 echo "(1) Build (compiling the application)"
   if npm run build;
   then
+    git pull
     git add .
     if [ "$1" -eq 0 ]
     then
