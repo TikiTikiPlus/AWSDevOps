@@ -6,7 +6,7 @@ echo "(1) Build (compiling the application)"
   if npm run build; then
     git add .
     git commit -m "Successful commit"
-    git push
+    git push --force
     echo "build succeeded"
   else
     echo "build failed"
