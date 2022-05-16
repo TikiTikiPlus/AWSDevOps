@@ -49,3 +49,414 @@ Find out more about deployment here:
 
   bit.ly/CRA-deploy
 
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Compiled with warnings.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 28:26:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/modules/checkout/checkoutForm/CheckoutForm.tsx
+  Line 2:54:  'FormControlProps' is defined but never used  @typescript-eslint/no-unused-vars
+
+./src/modules/signup/Home.tsx
+  Line 45:506:  Using target="_blank" without rel="noopener noreferrer" is a security risk: see https://mathiasbynens.github.io/rel-noopener  react/jsx-no-target-blank
+
+./src/modules/category/CategoryGalleryTeaser.tsx
+  Line 46:74:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+./src/modules/signup/Login.tsx
+  Line 7:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 7:55:  Unnecessary escape character: \[  no-useless-escape
+
+./src/modules/signup/Signup.tsx
+  Line 8:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 8:55:  Unnecessary escape character: \[  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  486.9 KB  build/static/js/2.5e13fc6d.chunk.js
+  39.66 KB  build/static/js/main.6cacbbbe.chunk.js
+  20.54 KB  build/static/css/2.665a96cb.chunk.css
+  2.09 KB   build/static/css/main.5d456522.chunk.css
+  785 B     build/static/js/runtime-main.9280458a.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  bit.ly/CRA-deploy
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Compiled with warnings.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 28:26:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/modules/checkout/checkoutForm/CheckoutForm.tsx
+  Line 2:54:  'FormControlProps' is defined but never used  @typescript-eslint/no-unused-vars
+
+./src/modules/signup/Home.tsx
+  Line 45:506:  Using target="_blank" without rel="noopener noreferrer" is a security risk: see https://mathiasbynens.github.io/rel-noopener  react/jsx-no-target-blank
+
+./src/modules/category/CategoryGalleryTeaser.tsx
+  Line 46:74:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+./src/modules/signup/Login.tsx
+  Line 7:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 7:55:  Unnecessary escape character: \[  no-useless-escape
+
+./src/modules/signup/Signup.tsx
+  Line 8:30:  Unnecessary escape character: \[  no-useless-escape
+  Line 8:55:  Unnecessary escape character: \[  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  486.9 KB (-2 B)    build/static/js/2.5e13fc6d.chunk.js
+  39.66 KB (+210 B)  build/static/js/main.6cacbbbe.chunk.js
+  20.54 KB           build/static/css/2.665a96cb.chunk.css
+  2.09 KB            build/static/css/main.5d456522.chunk.css
+  785 B              build/static/js/runtime-main.9280458a.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  bit.ly/CRA-deploy
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+/home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+TypeScript error in /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets/src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx(25,12):
+Cannot find name 'bestSellers'.  TS2304
+
+    23 |         </div>
+    24 |         <div className="row">
+  > 25 |           {bestSellers.map(book =>
+       |            ^
+    26 |             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
+    27 |               <LinkContainer to="/best">
+    28 |                 <NavItem><img src={book} className="thumbs" /></NavItem>
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+
+
+> aws-bookstore-demo-app@0.1.0 build /home/ro68/Documents/COMPX341/Assignment3/COMPX341-A3/assets
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+./src/modules/bestSellers/bestSellersBar/BestSellersBar.tsx
+  Line 18:7:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 19:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:11:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 20:12:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 21:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:14:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 21:22:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 21:35:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 24:9:   'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 26:13:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:15:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 27:16:  'LinkContainer' is not defined           react/jsx-no-undef
+  Line 28:17:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  Line 28:18:  'NavItem' is not defined                 react/jsx-no-undef
+  Line 28:26:  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+Search for the keywords to learn more about each error.
+
+

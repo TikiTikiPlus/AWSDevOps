@@ -5,3 +5,157 @@ audited 2017 packages in 21.463s
 
 found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
   run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 8.243s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.273s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 10.161s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.576s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.155s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.686s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.78s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.031s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.348s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.665s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.783s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.356s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 8.021s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 8.205s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.35s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.373s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.624s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.988s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 8.018s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.787s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 7.591s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+audited 2017 packages in 8.386s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (2 low, 15 moderate, 75 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
