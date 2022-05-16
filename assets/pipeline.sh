@@ -6,6 +6,11 @@ echo "(0) Prepare environment"
 echo "(1) Build (compiling the application)"
   if npm run build;
   then
+    for f in `find ./src -type f -name "*.ts"`
+          do
+            sed -i bak '1 i\//Huey Olegario 1522057' $f
+            echo "$f"
+          done
     git pull
     git add .
     if [ "$1" -eq 0 ]
@@ -23,11 +28,7 @@ echo "(1) Build (compiling the application)"
     #  do
     #    echo "$f"
    #   done
-      for f in `find ./src -type f -name "*.ts"`
-        do
-          sed -i bak '1 i\//Huey Olegario 1522057' $f
-            echo "$f"
-        done
+
     echo "build succeeded"
   else
     echo "build failed"
