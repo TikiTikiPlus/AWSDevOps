@@ -2,7 +2,7 @@
 
 echo "(0) Prepare environment"
 echo "(1) Build (compiling the application)"
-  #npm install
+  npm install
   if npm run build;
   then
     echo "build succeeded"
@@ -16,7 +16,7 @@ echo "(1) Build (compiling the application)"
       echo "$1"
       git commit -m "$1"
     fi
-
+    git push
   else
     echo "build failed"
     exit
