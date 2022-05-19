@@ -22,4 +22,4 @@ echo "(1) Build (compiling the application)"
     exit
   fi
 echo "(2) Tests"
-#npm run start
+npm run start
