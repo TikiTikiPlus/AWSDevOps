@@ -16,7 +16,7 @@ echo "(1) Build (compiling the application)"
      git commit -m "$1"
      echo "$1"
     fi
-    git push git@github.com:TikiTikiPlus/AWSDevOps.git
+    git push -u git@github.com:TikiTikiPlus/AWSDevOps.git
     npm run start
   else
     echo "build failed"
