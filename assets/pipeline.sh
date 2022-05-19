@@ -8,12 +8,6 @@ echo "(1) Build (compiling the application)"
   if npm run build;
   then
     git pull
-    for f in `find ./src -type f -name "*.ts"`
-      do
-        sed -i.bak '1 i\//Huey Olegario 1522057' $f
-        echo "$f"
-      done
-
     git add .
     if [ $# -eq 0 ]
     then
