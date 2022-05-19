@@ -13,8 +13,8 @@ echo "(1) Build (compiling the application)"
       git commit -m "COMPX341-22A-A3 Committing from CI/CD Pipeline"
       echo "COMPX341-22A-A3 Committing from CI/CD Pipeline"
     else
-      echo "$1"
-      git commit -m "$1"
+     git commit -m "$1"
+     echo "$1"
     fi
     git push git@github.com:TikiTikiPlus/AWSDevOps.git
     npm run start
