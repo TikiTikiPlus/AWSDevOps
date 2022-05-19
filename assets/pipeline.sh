@@ -16,10 +16,10 @@ echo "(1) Build (compiling the application)"
       echo "$1"
       git commit -m "$1"
     fi
-    git push
+    git push git@github.com:TikiTikiPlus/AWSDevOps.git
   else
     echo "build failed"
     exit
   fi
 echo "(2) Tests"
-npm run start
+#npm run start
