@@ -4,13 +4,13 @@ echo "(0) Prepare environment"
 
 
 echo "(1) Build (compiling the application)"
-  npm install;
+  npm install
   if npm run build;
   then
     git pull
     for f in `find ./src -type f -name "*.ts"`
       do
-        sed -i bak '1 i\//Huey Olegario 1522057' $f
+        sed -i.bak '1 i\//Huey Olegario 1522057' $f
         echo "$f"
       done
 
@@ -22,7 +22,7 @@ echo "(1) Build (compiling the application)"
       echo "$1"
       git commit -m "$1"
     fi
-
+    npm run start
     echo "build succeeded"
   else
     echo "build failed"
