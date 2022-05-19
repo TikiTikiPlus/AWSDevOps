@@ -5,6 +5,7 @@ echo "(1) Build (compiling the application)"
   npm install
   if npm run build;
   then
+    echo "build succeeded"
     git pull
     git add .
     if [ $# -eq 0 ]
@@ -14,9 +15,11 @@ echo "(1) Build (compiling the application)"
       echo "$1"
       git commit -m "$1"
     fi
-    npm run start
-    echo "build succeeded"
+
+
   else
     echo "build failed"
+    exit
   fi
 echo "(2) Tests"
+npm run start
