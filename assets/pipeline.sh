@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo "(0) Prepare environment"
-
-
 echo "(1) Build (compiling the application)"
   npm install
   if npm run build;
